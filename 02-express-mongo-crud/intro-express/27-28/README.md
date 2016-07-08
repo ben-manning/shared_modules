@@ -8,6 +8,12 @@
 | Serve JSON with Express |
 | Serve static assets with Express |
 
+### Request Response Cycle
+
+Remember that the interwebs is many clients querying many servers. We've done a lot with clients and APIs, and now we want to write the server side code that handles the request and then responds with some data.
+
+![request](http://i.imgur.com/YXgj8.png)
+
 ### Motivation (Why?)
 
 Express is a cutting-edge, unopinionated, server-side JavaScript framework that runs on a Node.js server. It is a very, very popular and trending framework with a bevy of modules you can add to it.
@@ -45,13 +51,6 @@ app.get('/', function (req, res) {
 
 var server = app.listen(3000);
 ```
-
-### Request Response Cycle
-
-Remember that the interwebs is many clients querying many servers. We've done a lot with clients and APIs, and now we want to write the server side code that handles the request and then responds with some data.
-
-![request](http://i.imgur.com/YXgj8.png)
-
 
 ### Express file tree
 
